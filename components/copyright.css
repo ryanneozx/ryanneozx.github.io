@@ -22,6 +22,11 @@
   height: var(--dl-size-size-xsmall);
   background-color: #ffffff;
 }
+.copyright-root-class-name1 {
+  width: 100%;
+  height: var(--dl-size-size-xsmall);
+  background-color: #ffffff;
+}
 @media(max-width: 991px) {
   .copyright-max-width {
     flex-direction: column;
