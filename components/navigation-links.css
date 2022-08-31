@@ -7,11 +7,12 @@
 .navigation-links-text {
   color: #ffffff;
 }
-.navigation-links-text1 {
+.navigation-links-navlink {
   color: #ffffff;
   margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
-.navigation-links-text2 {
+.navigation-links-text1 {
   margin-left: var(--dl-space-space-twounits);
 }
 
@@ -27,11 +28,11 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .navigation-links-text1 {
+  .navigation-links-navlink {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-text2 {
+  .navigation-links-text1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }

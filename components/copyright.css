@@ -18,6 +18,7 @@
   line-height: 1.5;
 }
 .copyright-root-class-name {
+  width: 100%;
   height: var(--dl-size-size-xsmall);
   background-color: #ffffff;
 }
