@@ -219,6 +219,7 @@
 .home-hero {
   height: 1232px;
   display: flex;
+  position: relative;
   padding-top: var(--dl-space-space-twounits);
   background-color: #8e8e8e;
 }
