@@ -4,16 +4,14 @@
   align-items: center;
   flex-direction: row;
 }
+.navigation-links-text {
+  color: #ffffff;
+}
 .navigation-links-text1 {
+  color: #ffffff;
   margin-left: var(--dl-space-space-twounits);
 }
 .navigation-links-text2 {
-  margin-left: var(--dl-space-space-twounits);
-}
-.navigation-links-text3 {
-  margin-left: var(--dl-space-space-twounits);
-}
-.navigation-links-text4 {
   margin-left: var(--dl-space-space-twounits);
 }
 
@@ -34,14 +32,6 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .navigation-links-text2 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text3 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text4 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }

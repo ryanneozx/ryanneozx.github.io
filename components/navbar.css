@@ -4,16 +4,14 @@
   align-items: center;
   flex-direction: row;
 }
+.navigation-links-text {
+  color: #ffffff;
+}
 .navigation-links-text1 {
+  color: #ffffff;
   margin-left: var(--dl-space-space-twounits);
 }
 .navigation-links-text2 {
-  margin-left: var(--dl-space-space-twounits);
-}
-.navigation-links-text3 {
-  margin-left: var(--dl-space-space-twounits);
-}
-.navigation-links-text4 {
   margin-left: var(--dl-space-space-twounits);
 }
 
@@ -37,14 +35,6 @@
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-text3 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text4 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
 }
 
 .navbar-navbar-container {
@@ -55,29 +45,43 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.navbar-image {
-  width: 106px;
-}
-.navbar-nav {
-  display: flex;
-}
 .navbar-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
+}
+.navbar-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.navbar-text {
+  color: #ffffff;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Exo 2;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.navbar-nav {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
 }
 .navbar-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.navbar-container {
+.navbar-container1 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.navbar-image1 {
+.navbar-image {
   width: 106px;
 }
 .navbar-menu-close {
@@ -98,13 +102,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.navbar-text {
+.navbar-text1 {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.navbar-container1 {
+.navbar-container2 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
@@ -148,6 +152,13 @@
 .navbar-icon14:hover {
   fill: var(--dl-color-backgrounds-primary);
   cursor: pointer;
+}
+.navbar-primary-btn1 {
+  color: #000000;
+  background-color: #6bd9e4;
+}
+.navbar-root-class-name {
+  background-color: var(--dl-color-backgrounds-green);
 }
 @media(max-width: 767px) {
   .navbar-nav {

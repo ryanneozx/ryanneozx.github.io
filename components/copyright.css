@@ -17,36 +17,9 @@
   font-weight: 300;
   line-height: 1.5;
 }
-.copyright-text1 {
-  font-style: normal;
-  font-weight: 300;
-}
-.copyright-text2 {
-  font-style: normal;
-  font-weight: 300;
-  text-decoration: underline;
-}
-.copyright-text3 {
-  font-style: normal;
-  font-weight: 300;
-}
-.copyright-text4 {
-  font-style: normal;
-  font-weight: 300;
-  text-decoration: underline;
-}
-.copyright-text5 {
-  font-style: normal;
-  font-weight: 300;
-}
-.copyright-text6 {
-  font-style: normal;
-  font-weight: 300;
-  text-decoration: underline;
-}
-.copyright-text7 {
-  font-style: normal;
-  font-weight: 300;
+.copyright-root-class-name {
+  height: var(--dl-size-size-xsmall);
+  background-color: #ffffff;
 }
 @media(max-width: 991px) {
   .copyright-max-width {
